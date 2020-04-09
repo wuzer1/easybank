@@ -120,7 +120,7 @@ h2{
     font-weight: 300;
 }
 #why-text{
-    padding-right: 460px;
+    padding-right: 501px;
 }
 .flex.features{
     padding: 70px 0 0;
@@ -133,6 +133,7 @@ h2{
 /* LATEST ARTICLES SECTION */
 .blog{
     background-color: #FAFAFA;
+    padding: 70px 0;
 }
 .blog .flex{
     justify-content: space-between;
@@ -171,3 +172,51 @@ h5{
     cursor: pointer;
 }
 /* END FOOTER SECTION */
+footer{
+    background-color: var(--primary-dark-blue);
+    padding: 35px 0;
+}
+.social-links-container{
+    width: 400px;
+    max-width: 100%;
+}
+.social-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 60px 0 0;
+    align-items: center;
+}
+.social-links li{
+    padding-right: 10px;
+}
+.icon:hover path{
+    fill: #2FC287;
+}.footer-menu-container{
+    display: flex;
+    width: 400px;
+    max-width: 100%;
+    justify-content: space-around;
+}
+.footer-menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-self: center;
+}
+.footer-menu li{
+    margin-bottom: 20px;
+}
+.footer-menu li a{
+    color: var(--neutral-white);
+    text-decoration: none;
+}
+.footer-menu li a:hover{
+    color: #2FC287;
+}
+.footer-copyright{
+    width: 400px;
+    max-width: 100%;
+    text-align: end;
+}
