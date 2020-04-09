@@ -18,7 +18,7 @@ body{
     display: flex;
 }
 .container{
-    width: 1100px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -101,7 +101,7 @@ header{
     top: 10%;
 }
 .right-1 img{
-    margin: -120px -293px -100px 0;
+    margin: -120px -245px -100px 0;
 }
 h1{
     font-size: 3.8vw;
@@ -112,20 +112,62 @@ h1{
 /* MIDDLE WHY SECTION */
 .why{
     background-color: var(--neutral-light-grayish-blue);
-    padding: 70px 0;
+    padding: 70px 0 90px;
     margin-top: -40px;
 }
 h2{
-    font-size: 2.4vw;
+    font-size: 2.5vw;
     font-weight: 300;
 }
 #why-text{
     padding-right: 460px;
 }
 .flex.features{
-    padding: 70px 0 90px;
+    padding: 70px 0 0;
+    justify-content: space-between;
 }
 .single-feature{
     padding-right: 30px;
     box-sizing: content-box;
 }
+/* LATEST ARTICLES SECTION */
+.blog{
+    background-color: #FAFAFA;
+}
+.blog .flex{
+    justify-content: space-between;
+}
+h5{
+    font-size: 2.5vw;
+}
+.latest-article{
+    flex-direction: column;
+    background-color: #fff;
+    width: 280px;
+}
+.latest-article img{
+    /* width: 275px;
+    max-width: 100%; */
+    height: 225px;
+}
+.article-content{
+    padding: 18px;
+    box-sizing: border-box;
+}
+.author{
+    color: var(--neutral-grayish-blue);
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+.article-link{
+    color: var(--primary-dark-blue);
+    text-decoration: none;
+    margin-top: 1em!important;
+}
+.article-link:hover{
+    color: #8AD0B9;
+    cursor: pointer;
+}
+/* END FOOTER SECTION */
