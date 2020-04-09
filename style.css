@@ -177,7 +177,7 @@ footer{
     padding: 35px 0;
 }
 .social-links-container{
-    width: 400px;
+    width: 250px;
     max-width: 100%;
 }
 .social-links{
@@ -216,7 +216,7 @@ footer{
     color: #2FC287;
 }
 .footer-copyright{
-    width: 400px;
+    width: 550px;
     max-width: 100%;
     text-align: end;
 }
