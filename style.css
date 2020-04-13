@@ -154,6 +154,9 @@ h2{
 h5{
     font-size: 2.5vw;
 }
+.why{
+    padding: 0;
+}
 .latest-article{
     flex-direction: column;
     background-color: #fff;
@@ -163,6 +166,7 @@ h5{
     /* width: 275px;
     max-width: 100%; */
     height: 225px;
+    border-radius: 5px 5px 0 0;
 }
 .article-content{
     padding: 18px;
@@ -237,13 +241,16 @@ footer{
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 768px){
     /* NAVIGATION */
+    header{
+        padding: 20px 0;
+    }
     .nav-menu-links{
         display: none;
     }
     nav ul.show{
         display: block;
         position: absolute;
-        top: 130px;
+        top: 72px;
         left: 5%;
         right: 25%;
         background-color: var(--neutral-white);
@@ -286,6 +293,9 @@ footer{
     .nav-menu-links{
         flex-direction: column;
     }
+    .nav-link{
+        color: var(--primary-dark-blue);
+    }
     .flex{
         flex-direction: column;
     }
@@ -315,6 +325,9 @@ footer{
     }
     h1, h2, h5{
         font-size: 2em;
+    }
+    h2{
+        margin-top: 0;
     }
     p{
         font-size: 14px;
