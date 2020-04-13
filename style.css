@@ -154,9 +154,6 @@ h2{
 h5{
     font-size: 2.5vw;
 }
-.why{
-    padding: 0;
-}
 .latest-article{
     flex-direction: column;
     background-color: #fff;
@@ -334,6 +331,9 @@ footer{
     }
     .single-feature{
         padding: 0 0 30px;
+    }
+    .why{
+        padding: 0;
     }
     #why-text{
         padding: 0;
