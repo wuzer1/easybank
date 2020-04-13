@@ -13,9 +13,14 @@
 </head>
 <body>
   <header>
-    <div class="container flex navigation">
-      <img src="/images/logo.svg" alt="logo">
-      <ul class="nav">
+    <div class="container flex">
+      <nav class="navigation">
+        <img src="/images/logo.svg" alt="logo">
+        <button class="hamburger" id="hamburger">
+            <img src="/images/icon-hamburger.svg" alt="hamburger mobile open" class="open">
+            <img src="/images/icon-close.svg" alt="hamburger mobile close" class="close">
+        </button>
+      <ul class="nav-menu-links" id="menu">
         <li><a href="" class="nav-link">Home</a></li>
         <li><a href="" class="nav-link">About</a></li>
         <li><a href="" class="nav-link">Contact</a></li>
@@ -23,10 +28,11 @@
         <li><a href="" class="nav-link">Careers</a></li>
       </ul>
       <button class="btn">Request Invite</button>
+      </nav>
     </div>
   </header>
   <section class="next-generation">
-    <div class="container flex">
+    <div class="container flex next-generation-mobile">
       <div class="left-1">
         <h1>Next generation digital banking</h1>
         <p>
@@ -37,7 +43,7 @@
 
       </div>
       <div class="right-1">
-        <img src="/images/image-mockups.png" alt="image-mockups">
+        <img src="/images/image-mockups.png" alt="image-mockups" class="mobiles">
       </div>
     </div>
   </section>
@@ -192,7 +198,7 @@
       </div>
     </div>
   </footer>
-  
+  <script src="script.js"></script>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
